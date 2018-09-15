@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: mytomcat
-        image: maha4iac/mytom:2
+        image: jenkins:2.7.1
         ports:
         - containerPort: 8080

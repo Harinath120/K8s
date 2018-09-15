@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: mytomcat-svc
   labels:
-    app: mytomcat-svc
+    app: mytomcat
     version: 2.7.1
 spec:
   type: NodePort
